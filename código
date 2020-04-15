@@ -1,0 +1,16 @@
+usuarios = {'marcelo':15, 'alfredo':18, 'julia':21, 'Andressa':13, 'marco':18}
+idade = usuarios.values()
+nome = usuarios.keys()
+
+# criar condicional para verificar quais usuarios tem mais de 18 anos 
+
+try:
+for idade in usuarios:
+  if idade >=18:
+    print(usuario)
+    
+for i in usuarios:
+  if i.values() =>18:
+    print (i)
+    
+    
