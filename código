@@ -1,3 +1,7 @@
 usuarios = {'marcelo':15, 'alfredo':18, 'julia':21, 'Andressa':13, 'marco':18}
 idade = usuarios.values()
 nome = usuarios.keys() 
+
+for i, a in usuarios.items():
+  if a >= 18:
+    print(i)
